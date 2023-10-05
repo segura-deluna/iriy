@@ -1,2 +1,115 @@
-.footer {
+
+.footer-top__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #BDBCBC;
+}
+
+@media (max-width: 576px) {
+  .footer-top__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.footer-top__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-main {
+  padding: 60px 0;
+}
+
+.footer-main__title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.footer-main__text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #828282;
+  margin-bottom: 24px;
+}
+
+.footer-main__copyright {
+  margin-top: 22px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #828282;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-main__copyright span {
+  width: 40px;
+  height: 10px;
+  background: #FFC103;
+  border-radius: 20px;
+}
+
+.footer-main__nav li {
+  position: relative;
+  padding-left: 12px;
+}
+
+.footer-main__nav li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-main__nav li > a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #BDBCBC;
+}
+
+@media (max-width: 768px) {
+  .footer-main__nav li > a {
+    font-size: 1.125rem;
+    font-weight: 500;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+  }
+}
+
+.footer-main__nav li > a:hover {
+  color: #3B7401;
+}
+
+.footer-main__nav li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  background: #828282;
 }

@@ -7,15 +7,18 @@
 
   &__geo{
     width: 100%;
-    max-width: 190px;
+    max-width: 135px;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    color: $white;
+
+    &_text{
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      color: $white;
+    }
   }
 
   &__container{
@@ -23,7 +26,6 @@
     justify-content:space-between;
     align-items:center;
     width: 100%;
-
   }
 
   &__wrapper{
@@ -38,6 +40,7 @@
   &__logo {
     width: 270px;
     height: 93px;
+    margin-left: 45px;
   }
 
   &__link {
@@ -51,7 +54,7 @@
 
   &__menu {
     width: 100%;
-    max-width: 240px;
+    max-width: 340px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,11 +70,23 @@
   }
 
   &__text{
+    display: block;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     color: $white;
+    margin-left: 5px;
+  }
+
+  &__avatar{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    &_img{
+      width: 32px;
+      height: 32px;
+    }
   }
 
 }
