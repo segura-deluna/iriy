@@ -287,6 +287,51 @@ p {
   color: #fff;
 }
 
+.fermer__title {
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 auto 32px;
+  max-width: 992px;
+}
+
+.guid {
+  max-width: 1270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.guid__item {
+  position: relative;
+  width: 184px;
+  height: 112px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.guid__item:not(:last-child)::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: 20%;
+  right: -30%;
+  background-image: url(../img/array-sm.svg);
+}
+.guid__text {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #333;
+}
+
 .footer-top__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
