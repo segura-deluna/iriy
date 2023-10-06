@@ -154,7 +154,7 @@ p {
 }
 .header__wrapper {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1700px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -163,7 +163,6 @@ p {
 .header__logo {
   width: 270px;
   height: 93px;
-  margin-left: 45px;
 }
 .header__link {
   font-family: Montserrat;
@@ -175,7 +174,7 @@ p {
 }
 .header__menu {
   width: 100%;
-  max-width: 340px;
+  max-width: 380px;
   display: flex;
   justify-content: space-between;
   align-items: center;

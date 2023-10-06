@@ -30,7 +30,7 @@
 
   &__wrapper{
     width: 100%;
-    max-width: 1600px;
+    max-width: 1700px;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -40,7 +40,7 @@
   &__logo {
     width: 270px;
     height: 93px;
-    margin-left: 45px;
+    //margin-left: 45px;
   }
 
   &__link {
@@ -54,7 +54,7 @@
 
   &__menu {
     width: 100%;
-    max-width: 340px;
+    max-width: 380px;
     display: flex;
     justify-content: space-between;
     align-items: center;
