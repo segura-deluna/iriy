@@ -7,6 +7,14 @@
     line-height: normal;
     margin: 0 auto 32px;
     max-width: 992px;
+    @media (max-width: 840px){
+      font-size: 50px;
+      margin-bottom: 50px;
+    }
+    @media (max-width: 576px) {
+      font-size: 35px;
+      margin-bottom: 30px;
+    }
   }
   &__help{
     display: flex;
@@ -18,6 +26,11 @@
     border-radius: 20px;
     background-color: $green;
     color: $white;
+    @media (max-width: 576px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 auto 100px;
+    }
   }
   &__text{
     font-size: 18px;
@@ -25,6 +38,9 @@
     font-weight: 400;
     line-height: normal;
     margin-bottom: 24px;
+    @media (max-width: 576px) {
+      text-align: center;
+    }
   }
   &__btn{
     display: flex;
@@ -37,5 +53,8 @@
     border: 1px solid $white;
     color: $white;
     cursor: pointer;
+    @media (max-width: 576px) {
+      margin: 0 auto;
+    }
   }
 }

@@ -11,6 +11,10 @@
       font-size: 50px;
       margin-bottom: 50px;
     }
+    @media (max-width: 576px) {
+      font-size: 35px;
+      margin-bottom: 30px;
+    }
   }
 
   &__cards {
@@ -65,7 +69,7 @@
   @media (max-width: 1230px) {
     flex-wrap: wrap;
     justify-content: center;
-    gap:50px;
+    gap:60px;
   }
 
   &__item {
@@ -115,6 +119,11 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto 130px;
+  @media (max-width: 1280px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+  }
 
   &__item {
     max-width: 614px;
@@ -123,7 +132,7 @@
       .helper__card {
         color: $white;
         display: flex;
-        height: 496px;
+        min-height: 496px;
         padding: 35px;
         flex-direction: column;
         align-items: flex-start;
@@ -165,7 +174,7 @@
       .helper__card {
         color: $dark;
         display: flex;
-        height: 496px;
+        min-height: 496px;
         padding: 35px;
         flex-direction: column;
         align-items: flex-start;
